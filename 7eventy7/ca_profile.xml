@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/7eventy7/unraid-templates/refs/heads/main/images/avatar.png</Icon>
+  <Profile>
+    Developer of open source tools that enhance the self-hosted ecosystem. I build software to fill the gaps I discover in my homelab, focusing on clean interfaces and practical functionality.
+  </Profile>
+  <DonateLink>https://ko-fi.com/7eventy7</DonateLink>
+  <DonateText>Donations are always appreciated!</DonateText>
+</Maintainer>
