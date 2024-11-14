@@ -6,7 +6,6 @@ All my apps are and will forever be completely open source and MIT liscensed.
 ## Requirements
 - All XML files must be in the `main` branch
 - 2FA Authentication must be enabled on this repository
-- Each template must include a valid support thread link
 - Templates must have appropriate categories set
 
 ## Support & Issues
