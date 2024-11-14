@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>trackly</Name>
+  <Repository>7eventy7/trackly</Repository>
+  <Registry>https://hub.docker.com/r/7eventy7/trackly/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/7eventy7/trackly/issues</Support>
+  <Project>https://github.com/7eventy7/trackly</Project>
+  <Overview>A powerful python application that monitors your music library and notifies you about new album releases from your favorite artists through discord. Stay updated with the latest releases from artists in your collection.</Overview>
+  <Category>HomeAutomation: MediaApp:Music</Category>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/7eventy7/trackly/master/icons/trackly.png</Icon>
+  <Description>A powerful python application that monitors your music library and notifies you about new album releases from your favorite artists through discord. Stay updated with the latest releases from artists in your collection.</Description>
+  <Config Name="Music" Target="/music" Default="" Mode="ro" Description="music library containing directories per artist" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="persistent storage for release scan management" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/trackly/</Config>
+  <Config Name="DISCORD_WEBHOOK" Target="DISCORD_WEBHOOK" Default="" Mode="" Description="discord webhook url for embeds" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DISCORD_ROLE" Target="DISCORD_ROLE" Default="" Mode="" Description="role id to receieve discord pings" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="UPDATE_INTERVAL" Target="UPDATE_INTERVAL" Default="" Mode="" Description="cron schedule to scan for new releases" Type="Variable" Display="always" Required="true" Mask="false">0 0 * * *</Config>
+</Container>
