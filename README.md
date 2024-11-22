@@ -1,7 +1,7 @@
 # 7eventy7/unraid-templates
 
 This repository contains XML template(s) for the self hosted apps that I develop. 
-All my apps are and will forever be completely open source and MIT liscensed. 
+All my apps are and will forever be completely free, open source and MIT liscensed. 
 
 ## List of Templates
 - **[Trackly](https://github.com/7eventy7/trackly)**
