@@ -1,6 +1,6 @@
 # 7eventy7/unraid-templates
 
-This repository contains XML template(s) for the self hosted apps that I develop. 
+This repository contains XML template(s) for the self hosted apps that I develop.<br>
 All my apps are and will forever be completely free, open source and MIT liscensed. 
 
 ## List of Templates
