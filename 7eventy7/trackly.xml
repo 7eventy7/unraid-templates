@@ -13,6 +13,10 @@
   <WebUI>http://[IP]:[PORT:11888]</WebUI>
   <Icon>https://raw.githubusercontent.com/7eventy7/trackly/master/frontend/public/icons/trackly.png</Icon>
   <Description>A modern web application designed to enhance your Jellyfin music library experience. Browse your collection with a beautiful interface and optionally receive Discord notifications for new releases from your favorite artists.</Description>
+  <Screenshot>https://raw.githubusercontent.com/7eventy7/trackly/refs/heads/main/frontend/public/images/dark-artists.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/7eventy7/trackly/refs/heads/main/frontend/public/images/dark-releases.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/7eventy7/trackly/refs/heads/main/frontend/public/images/dark-settings.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/7eventy7/trackly/refs/heads/main/frontend/public/images/dark-specific.png</Screenshot>
   <Config Name="WEBUI" Target="11888" Default="11888" Mode="tcp" Description="webui port for trackly" Type="Port" Display="always" Required="true" Mask="false">11888</Config>
   <Config Name="DATA" Target="/data" Default="/mnt/user/appdata/trackly/" Mode="rw" Description="persistent storage for release scan management" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/trackly/</Config>
   <Config Name="MUSIC" Target="/music" Default="" Mode="ro" Description="music library containing directories per artist" Type="Path" Display="always" Required="true" Mask="false">/path/to/your/music/library</Config>
