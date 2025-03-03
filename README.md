@@ -5,6 +5,7 @@ All my apps are and will forever be completely free, open source and MIT liscens
 
 ## List of Templates
 - **[Trackly](https://github.com/7eventy7/trackly)**
+- **[Discodrome](https://github.com/7eventy7/discodrome)**
 
 ## Requirements Checklist
 ✓ All XML files are in in the `main` branch<br>

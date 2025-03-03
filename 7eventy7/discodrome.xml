@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>discodrome</Name>
+  <Repository>7eventy7/discodrome</Repository>
+  <Registry>https://hub.docker.com/r/7eventy7/discodrome</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/7eventy7/discodrome/issues</Support>
+  <Project>https://github.com/7eventy7/discodrome</Project>
+  <Overview>Discord bot that streams music from your personal Subsonic server</Overview>
+  <Category>MediaServer:Music</Category>
+  <Icon>https://raw.githubusercontent.com/7eventy7/trackly/master/resources/discodrome.png</Icon>
+  <Description>A discord music bot that seamlessly streams music from your personal music server directly to your voice channels. Works great with Navidrome, and other subsonic compatible music servers.</Description>
+  <Config Name="DATA" Target="/data" Default="/mnt/user/appdata/discodrome/" Mode="rw" Description="persistent storage for discodrome" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discodrome/</Config>
+  <Config Name="SUBSONIC_SERVER" Target="SUBSONIC_SERVER" Default="" Mode="" Description="URL of your Subsonic server" Type="Variable" Display="always" Required="true" Mask="false">YOUR_SUBSONIC_SERVER_URL</Config>
+  <Config Name="SUBSONIC_USER" Target="SUBSONIC_USER" Default="" Mode="" Description="Subsonic username" Type="Variable" Display="always" Required="true" Mask="false">YOUR_SUBSONIC_USERNAME</Config>
+  <Config Name="SUBSONIC_PASSWORD" Target="SUBSONIC_PASSWORD" Default="" Mode="" Description="Subsonic password" Type="Variable" Display="always" Required="true" Mask="true">YOUR_SUBSONIC_PASSWORD</Config>
+  <Config Name="DISCORD_BOT_TOKEN" Target="DISCORD_BOT_TOKEN" Default="" Mode="" Description="Your Discord bot token" Type="Variable" Display="always" Required="true" Mask="true">YOUR_DISCORD_BOT_TOKEN</Config>
+  <Config Name="DISCORD_TEST_GUILD" Target="DISCORD_TEST_GUILD" Default="" Mode="" Description="Discord test guild ID" Type="Variable" Display="always" Required="true" Mask="false">YOUR_DISCORD_TEST_GUILD_ID</Config>
+  <Config Name="DISCORD_OWNER_ID" Target="DISCORD_OWNER_ID" Default="" Mode="" Description="Discord owner ID" Type="Variable" Display="always" Required="true" Mask="false">YOUR_DISCORD_OWNER_ID</Config>
+  <Config Name="BOT_STATUS" Target="BOT_STATUS" Default="Streaming Music" Mode="" Description="Bot status message" Type="Variable" Display="always" Required="true" Mask="false">Streaming Music</Config>
+</Container>
