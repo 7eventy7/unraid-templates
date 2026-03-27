@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>discodrome</Name>
+  <n>discodrome</n>
   <Repository>7eventy7/discodrome</Repository>
   <Registry>https://hub.docker.com/r/7eventy7/discodrome</Registry>
   <Network>bridge</Network>
@@ -19,5 +19,7 @@
   <Config Name="DISCORD_BOT_TOKEN" Target="DISCORD_BOT_TOKEN" Default="" Mode="" Description="Your Discord bot token" Type="Variable" Display="always" Required="true" Mask="true">YOUR_DISCORD_BOT_TOKEN</Config>
   <Config Name="DISCORD_TEST_GUILD" Target="DISCORD_TEST_GUILD" Default="" Mode="" Description="Discord test guild ID" Type="Variable" Display="always" Required="true" Mask="false">YOUR_DISCORD_TEST_GUILD_ID</Config>
   <Config Name="DISCORD_OWNER_ID" Target="DISCORD_OWNER_ID" Default="" Mode="" Description="Discord owner ID" Type="Variable" Display="always" Required="true" Mask="false">YOUR_DISCORD_OWNER_ID</Config>
-  <Config Name="BOT_STATUS" Target="BOT_STATUS" Default="Streaming Music" Mode="" Description="Bot status message" Type="Variable" Display="always" Required="true" Mask="false">Streaming Music</Config>
+  <Config Name="BOT_STATUS" Target="BOT_STATUS" Default="" Mode="" Description="Bot status message" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="BOT_PREFIX" Target="BOT_PREFIX" Default="" Mode="" Description="Bot command prefix" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="BOT_SEARCH_SUGGESTION_COUNT" Target="BOT_SEARCH_SUGGESTION_COUNT" Default="5" Mode="" Description="Autocomplete suggestion count" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 </Container>
