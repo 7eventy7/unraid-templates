@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <n>discodrome</n>
+  <Name>discodrome</Name>
   <Repository>7eventy7/discodrome</Repository>
   <Registry>https://hub.docker.com/r/7eventy7/discodrome</Registry>
   <Network>bridge</Network>
